@@ -1,0 +1,65 @@
+@import url("./default.css");
+
+.infoCard {
+  box-shadow: 0 1px 1px 0 var(--shadow), 0 6px 20px 0 var(--shadow1);
+  margin-right: 3%;
+  padding: 10px;
+}
+
+.infoCard__title {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.infoCard__intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoCard__name {
+  font-size: 13px;
+  font-weight: lighter;
+  margin-top: -20px;
+}
+
+.infoCard__summery p {
+  font-size: 9px;
+  font-weight: lighter;
+  color: var(--gray);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.infoCard__meter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inforCard__text {
+  font-weight: bold !important;
+  color: var(--hardgray) !important;
+}
+
+.infoCard_numbers {
+  margin-left: 15px;
+}
+
+#disk_d {
+  width: 100%;
+}
+
+.infoCard__red {
+  color: var(--red) !important;
+}
+
+#file {
+  width: 100%;
+}
+
+.info__meter {
+  width: 100%;
+  height: 12px;
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  margin-top:10px
+}

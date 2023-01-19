@@ -1,0 +1,43 @@
+@import url('./default.css');
+
+.linegraph{
+    box-shadow: 0 1px 1px 0 var(--shadow), 0 6px 20px 0 var(--shadow1);
+    background-color: var(--white);
+    border-radius: 5px;
+    padding:10px;
+}
+
+.linegraph__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.line__graph__canvas{
+    width: 450px !important;
+    height: 225px !important;
+    margin-top: -30px !important;
+}
+
+
+
+
+
+.linegraph p{
+    font-size: 11px;
+    color:rgb(180, 179, 179)
+}
+
+.linegraph__info p{
+    font-size: 11px;
+    color:black
+}
+
+.right{
+    margin-left:-20px;
+}
+.left{
+    color:rgb(191, 190, 190);
+    margin-right:10px;
+}

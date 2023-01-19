@@ -1,0 +1,59 @@
+@import url('./default.css');
+
+.team{
+    /* width: 250px; */
+    width: 100%;
+}
+
+.team__members{
+    display: flex;
+    margin-top: -15px;
+    align-items: center;
+}
+
+.team_info{
+  margin: -2px;
+  margin-top: 5px;
+  
+}
+.team__field{
+    font-weight: lighter;
+    font-size: 10px;
+}
+.team__detail{
+    margin-left: 10px;
+}
+
+.team__name{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.team{
+    width: 180px;
+    padding: 10px;
+}
+
+.team__line{
+
+    margin-left: 5%;
+    margin-top: -40px;
+}
+
+.team__meter{
+    border:2px solid var(--gray);
+    margin-top:10px;
+    width: 90%;
+    margin-left: 10%;
+
+}
+
+.team__logo{
+    position: relative;
+    top:-30px;
+
+}
+
+.team__meter__info{
+    margin-top: -15px;
+}

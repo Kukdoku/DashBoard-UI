@@ -1,0 +1,67 @@
+@import url('./default.css');
+
+.pieGraph {
+
+  box-shadow: 0 1px 1px 0 var(--shadow), 0 6px 20px 0 var(--shadow1);
+  background-color: var(--white);
+  padding: 10px;
+  margin-left: 40px;
+  position: relative;
+}
+
+.piegraph__toggle {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+}
+
+.pieGraph__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pieGraph__donat {
+  width: 200px;
+}
+
+.piegraph__implement {
+  display: flex ;
+  width: 200px !important;
+  height: 200px !important;
+  justify-content: center ;
+  margin-left: 25px;
+}
+
+.pieGraph__points {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10px;
+  margin-top:20px
+}
+
+.pieGraph__projects {
+  position: absolute;
+  top:50%;
+  left:32%;
+  text-align: center;
+}
+
+.pieGraph__projects p{
+  font-size:11px;
+  margin-top:-10px;
+}
+
+.pieGraph__projects h1{
+    font-size:13px
+  }
+
+.status{
+    margin-left:-20px;
+}
+.left{
+    color: var(--gray)
+}
+
+  

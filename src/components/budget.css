@@ -1,0 +1,22 @@
+
+@import url('./default.css');
+
+.budget__button{
+    color: var(--greenish);
+    border:1px solid var(--greenish);
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 10px;
+    height: 35px;
+}
+
+.budget{
+    display: flex;
+    margin-top: 30px;
+}
+
+.active{
+    background-color: var(--greenish);
+    color: var(--white);
+}

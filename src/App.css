@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+@import url("./components/default.css");
+
+.app {
+  background-color: var(--white);
+}
+.app__content {
+  margin: 2% 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__status__card {
+  display: grid;
+  grid-gap: 5%;
+  grid-template-columns: 15% 15% 15% 15% 15%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__information {
+  display: grid;
+  grid-gap: 5%;
+  grid-template-columns: 75% 20%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app__team {
+  box-shadow: 0 1px 1px 0 var(--shadow), 0 6px 20px 0 var(--shadow1);
 }
 
-.App-link {
-  color: #61dafb;
+.app_graph__card {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 55% 40%;
+  height: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__info__card {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 3%;
+  grid-template-columns: 23% 23% 23% 23%;
+}
+
+.app__info__left {
+  display: grid;
+  grid-template-rows: 25% 75%;
 }

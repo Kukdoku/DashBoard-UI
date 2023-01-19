@@ -1,0 +1,55 @@
+@import url("./default.css");
+
+.mynav {
+  color: var(--white);
+  height: 40px;
+}
+
+.navbar__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bluish);
+}
+
+.navbar__profile {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  cursor: pointer;
+}
+
+.navbar__active {
+  border-bottom: 2px solid var(--aqua);
+}
+
+.myNav__FirChar {
+  color: var(--aqua);
+}
+
+.myNav__logo {
+  letter-spacing: 3px;
+  margin-left: 30px;
+}
+
+.navbar__profile .MuiBadge-dot {
+  margin: 7px;
+  background-color: var(--red) !important;
+}
+
+.navbar__ball {
+  margin-right: 15px;
+}
+.myNav__image{
+    margin-right: 5px;
+}
