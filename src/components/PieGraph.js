@@ -26,7 +26,7 @@ export default function PieGraph() {
     <div className="pieGraph">
       <div className="pieGraph__header">
         <p>Budget</p>
-        <p class="piegraph__toggle">
+        <p className="piegraph__toggle">
           <span className="left">Profitability</span>
           <FormControlLabel
             sx={{ color: "text.primary" }}

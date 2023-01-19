@@ -18,50 +18,54 @@ const avatar3 =
 const avatar4 =
   "https://img.freepik.com/premium-vector/portrait-young-man-with-beard-hair-style-male-avatar-vector-illustration_266660-423.jpg?w=2000";
 
-
 const teamMember = [
-    {
-      name: "Andrea",
-      field: "UX Junior",
-      photo: avatar,
-      performance: 2,
-      emoji: "😠",
-    },
-    {
-      name: "Alvaro",
-      field: "Back end developer",
-      photo: avatar1,
-      performance: 5,
-      emoji: "🙂 ",
-    },
-    {
-      name: "Juan",
-      field: "Ux Senior",
-      photo: avatar2,
-      performance: 4,
-      emoji: "😐",
-    },
-    {
-      name: "Jose",
-      field: "Marketing",
-      photo: avatar3,
-      performance: 1,
-      emoji: "😡",
-    },
-    {
-      name: "Maria",
-      field: "UX Junior",
-      photo: avatar4,
-      performance: 3,
-      emoji: "😐",
-    },
-  ]
-  function Team() {
+  {
+    id: 1,
+    name: "Andrea",
+    field: "UX Junior",
+    photo: avatar,
+    performance: 2,
+    emoji: "😠",
+  },
+  {
+    id: 2,
+    name: "Alvaro",
+    field: "Back end developer",
+    photo: avatar1,
+    performance: 5,
+    emoji: "🙂 ",
+  },
+  {
+    id: 3,
+    name: "Juan",
+    field: "Ux Senior",
+    photo: avatar2,
+    performance: 4,
+    emoji: "😐",
+  },
+  {
+    id: 4,
+    name: "Jose",
+    field: "Marketing",
+    photo: avatar3,
+    performance: 1,
+    emoji: "😡",
+  },
+  {
+    id: 5,
+    name: "Maria",
+    field: "UX Junior",
+    photo: avatar4,
+    performance: 3,
+    emoji: "😐",
+  },
+];
+function Team() {
   return (
     <div className="team">
       <p>Team mood</p>
       {teamMember.map((member) => (
-        <div>
+        <div key={member.id}>
           <div className="team__members">
             <Avatar
               alt="Remy Sharp"
